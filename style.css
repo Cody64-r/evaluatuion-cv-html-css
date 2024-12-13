@@ -1,0 +1,157 @@
+/* BASE STYLES */
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0D1F2D;
+    background-color: #FFFFFF;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #0D1F2D;
+    color: #FFFFFF;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cart-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #3366FF;
+    color: #FFFFFF;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: #FFFFFF;
+    color: #3366FF;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-image {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+/* PRODUCT LINE */
+.product-line {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.product-card {
+    background-color: #F9F9F9;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card button {
+    background-color: #3366FF;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background-color: #F1F5FF;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonial-slider blockquote {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-slider cite {
+    font-weight: bold;
+    color: #3366FF;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #0D1F2D;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.social-icons a {
+    color: #FFFFFF;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+}

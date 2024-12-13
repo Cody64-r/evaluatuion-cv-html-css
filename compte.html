@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="compte.css">
+<section id="compte">
+    <h2>Bienvenue dans votre espace compte</h2>
+    <div class="compte-container">
+        <!-- Connexion -->
+        <div class="connexion">
+            <h3>Se connecter</h3>
+            <form action="login.php" method="post" class="connexion-form">
+                <div class="form-group">
+                    <label for="email">E-mail :</label>
+                    <input type="email" id="email" name="email" placeholder="Entrez votre e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+                </div>
+                <button type="submit" class="submit-button">Connexion</button>
+            </form>
+        </div>
+
+        <!-- Inscription -->
+        <div class="inscription">
+            <h3>Créer un compte</h3>
+            <form action="register.php" method="post" class="inscription-form">
+                <div class="form-group">
+                    <label for="new-name">Nom :</label>
+                    <input type="text" id="new-name" name="name" placeholder="Entrez votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="new-email">E-mail :</label>
+                    <input type="email" id="new-email" name="email" placeholder="Entrez votre e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="new-password">Mot de passe :</label>
+                    <input type="password" id="new-password" name="password" placeholder="Créez un mot de passe" required>
+                </div>
+                <button type="submit" class="submit-button">Créer un compte</button>
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,75 @@
+/* Styles pour la section Compte */
+#compte {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#compte h2 {
+    font-size: 28px;
+    color: #0d1b2a;
+    margin-bottom: 30px;
+}
+
+.compte-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.connexion, .inscription {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #0d1b2a;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0d1b2a;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input:focus {
+    border-color: #00aaff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 170, 255, 0.5);
+}
+
+.submit-button {
+    background-color: #00aaff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #007acc;
+}
